@@ -72,7 +72,7 @@ def main():
 
                 # If flag not present in 'property_flags' map, The 'userAccountPropertyFlag' won't be populated in search result
                 for flag in flags:
-                    if flag not in property_flags.keys():
+                    if flag not in list(property_flags.keys()):
                         logger.debug("'userAccountControl' attribute can not be decoded for value: {}".format(
                             result[userAccountControl]))
                         incorrect_result_flag = True
