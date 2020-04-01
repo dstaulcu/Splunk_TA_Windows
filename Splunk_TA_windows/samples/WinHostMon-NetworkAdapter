@@ -1,6 +1,0 @@
-Type=NetworkAdapter
-Name="##Name_ProductName##"
-Manufacturer="##Manufacturer##"
-ProductName="##Name_ProductName##"
-Status=""
-MACAddress="##Mac_Address##"
